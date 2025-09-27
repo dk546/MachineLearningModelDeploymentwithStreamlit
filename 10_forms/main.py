@@ -14,6 +14,8 @@ with st.form("form_key"):
 
     allergies = st.text_area("Any allergies?", placeholder="Leave us a note for allergies")
 
+    
+
     submit_btn = st.form_submit_button("Submit")
 
 st.write(f"""Your order summary:

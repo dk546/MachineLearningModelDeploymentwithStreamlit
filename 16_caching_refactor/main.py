@@ -35,6 +35,7 @@ def format_date_for_comparison(date):
         return float(date[2:]) + 0.75
     else:
         return float(date[2:])
+    
 
 @st.cache_data
 def end_before_start(start_date, end_date):
